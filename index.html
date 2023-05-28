@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document form</title>
+    </head>
+    <body>
+        <form action="www.google.com">
+            <fieldset name="Personalia">
+                <fieldset name="Personalia">
+                <legend>Personalia:</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="Fname"><br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="Lname"><br><br>
+
+                <label for="pnumber">Phone Number:</label>
+                <input type="tel" id="pnumber" name="Pnumber"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email"><br><br>
+                <label for="pword">Password:</label>
+                <input type="password" id="pword" name="password"><br><br>
+                <label for="dbirth">Date Of Birth:</label>
+                <input type="date" id="dbirth" name="date-of-birth"><br><br>
+                <label for="age">Your Age in Number:</label>
+                <input type="number" id="age" name="Age"><br><br>
+                <label for="aw">Your Age in Week:</label>
+                <input type="week" id="aw" name="ageweek"><br><br>
+                <label for="amonth">Your Age in Month</label>
+                <input type="month" id="amonth" name="age-in-month">
+                <p>Choose Gender:</p>
+                
+                <input type="radio" id="male" name="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Female">
+                <label for="female">Female</label>
+
+                </fieldset>
+
+            <fieldset name=" Last Educational Status">
+                <label for="Esatuse">Choose your Educational Satuse</label>
+                <Select id="Esatuse">
+                    <optgroup label="Graduation">
+                    <option value="master's">Master's</option>
+                    <option value="Honer's">Hon's</option>
+                    </optgroup>
+                    <optgroup label="Under-Graduation">
+                        <option>HSC/ALIM</option>
+                        <option>SSC/Dakhil</option>
+                    </optgroup>
+                    <optgroup label="Primary">
+                        <option>JSC/JDC</option>
+                        <option>PSC/ESC</option>
+                    </optgroup>
+                </Select><br><br>
+                <label for="Pyear">Choose Passing Year</label>
+                <input list="pyear" name="Pyear" id="Pyear">
+                <datalist id="pyear">
+                    <option value="2023">                       
+                    <option value="2022">
+                    <option value="2021">                        
+                    <option value="2020">
+                    <option value="2019">
+                    <option value="2018">
+                    <option value="2017">
+                    <option value="2016">
+                    <option value="2015">                       
+                    <option value="2014">
+                    <option value="2013">                        
+                    <option value="2012">
+                    <option value="2011">
+                    <option value="2010">
+                    <option value="2009">
+                    <option value="2008">
+                    <option value="2007">                       
+                    <option value="2006">
+                    <option value="2005">                        
+                    <option value="2004">
+                    <option value="2003">
+                    <option value="2002">
+                    <option value="2001">
+                    <option value="2000">
+                </datalist>
+
+            </fieldset>
+            <button type="reset">Reset</button>
+            <input type="submit" value="Submit">
+            
+        </form>
+
+
+
+
+        
+    </body>
+</html>
